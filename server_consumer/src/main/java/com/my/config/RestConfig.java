@@ -13,7 +13,6 @@ public class RestConfig {
 
     @Bean
     public RestTemplate restTemplate(){
-        System.out.println("22222");
         return new RestTemplate();
     }
 }
