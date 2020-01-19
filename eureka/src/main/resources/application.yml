@@ -6,3 +6,7 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+#安全认证配置
+security:
+  basic:
+    enable: true
